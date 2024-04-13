@@ -41,3 +41,22 @@ fun combination(number: IntArray, targetCount: Int, selectedNumbers: IntArray, s
         combination(number, targetCount + 1, selectedNumbers, i + 1)
     }
 }
+
+fun handSome09() {
+    val pikachu = "pikachu"
+    fun pokemon() {
+        println("I have $pikachu")
+    }
+    class SubHandSome() {
+        fun subFun() {
+            pokemon()
+        }
+    }
+    SubHandSome().subFun()
+    fun abc():String {
+        return "Dd"
+    }
+    val a = {
+
+    }
+}
