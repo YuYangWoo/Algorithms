@@ -4,7 +4,7 @@ fun main() {
     solution(arrayOf("BACDE", "ABCD"), arrayOf("ABCDW", "FGHIJ", "WA", )).forEach { println(it) }
 }
 
-fun solution(keymap: Array<String>, targets: Array<String>): MutableList<Int> {
+private fun solution(keymap: Array<String>, targets: Array<String>): MutableList<Int> {
     var answer = mutableListOf<Int>()
     val minKeyMap = HashMap<Char, Int>()
     buildMinKey(keymap, minKeyMap)
