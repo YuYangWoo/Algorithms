@@ -33,7 +33,7 @@ private fun solution(park: Array<String>, routes: Array<String>): IntArray {
     return answer
 }
 
-fun move(col: Int, row: Int, map: Array<MutableList<Char>>, routes: Array<String>): Pair<Int, Int> {
+private fun move(col: Int, row: Int, map: Array<MutableList<Char>>, routes: Array<String>): Pair<Int, Int> {
     var sPositionCol = col
     var sPositionRow = row
 
